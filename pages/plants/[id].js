@@ -11,7 +11,7 @@ const Plant = (props) => {
     <div className="container">
       <div className="jumbotron">
       	<div className='detailContainer'>
-      		<img src={plant.image} className="img-fluid" alt="Responsive image"/>
+      		<img src={plant.image} className="img-fluid detailImg" alt="Responsive image"/>
       	</div>
         <h1 className="display-4">{plant.name}</h1>
         <p className="lead">{plant.description}</p>
@@ -26,6 +26,12 @@ const Plant = (props) => {
       {`
       .desc-text {
       	font-size: 21px;
+      }
+      .detailContainer {
+        // max-height: 400px;
+      }
+      .detailImg {
+        max-height 300px;
       }
       `}
       </style>

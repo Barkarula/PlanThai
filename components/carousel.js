@@ -24,6 +24,10 @@ const Carousel = (props) => {
                 src={image.url} 
                 alt={image.name} 
               />
+              <div className="carousel-caption d-none d-md-block carousel-container">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
             </div>
               )
             )
@@ -45,10 +49,14 @@ const Carousel = (props) => {
             max-width: 70%;
             // height: auto;
             min-width: 100%;
-            max-height: 200px;
+            max-height: 170px;
           }
           img {
             object-fit: cover;
+          }
+          .carousel-container {
+            background: rgba(0, 0, 0, 0.45) !important;
+            padding: 4px 8px !important;
           }
         `}
         </style>

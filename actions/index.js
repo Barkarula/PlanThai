@@ -87,6 +87,14 @@ export const getPlants = () => {
   })
 }
 
+export const createPlant = (plant) => {
+  plant.id = Math.random().toString(36).substr(2, 7)
+  return new Promise((resolve, reject) => {
+    PLANTS_DATA.push(plant)
+    setTimeout(() => resolve(plant), 100)
+  })
+}
+
 export const getPlantById = (id) => {
   return new Promise((resolve, reject) => {
     const plantIndex = PLANTS_DATA.findIndex(m => m.id === id)

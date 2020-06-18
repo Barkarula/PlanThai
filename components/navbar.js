@@ -20,13 +20,8 @@ const Navbar = () => {
                 </Link>
 	          </li>
 	          <li className="nav-item">
-                <Link href="/about">
-                  <a className="nav-link" href="#">About</a>
-                </Link>
-	          </li>
-	          <li className="nav-item">
-	            <Link href="/services">
-                  <a className="nav-link" href="#">Services</a>
+                <Link href="/order">
+                  <a className="nav-link" href="#">Order</a>
                 </Link>
 	          </li>
 	          <li className="nav-item">
@@ -46,8 +41,7 @@ const Navbar = () => {
 		    right: 10px;
           }
           .container_theme_lime {
-          	background-color: #65a87f! important;
-          	background-color: #506e64! important;
+          	background-color: #00695C! important;
           }
         `}
         </style>
