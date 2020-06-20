@@ -4,8 +4,32 @@ button.btn.btn-primary {
 
 .btn-primary {
 	background-color: #00897B !important;
+	border-color: black !important;
 }
-
+/*.btn-primary:hover {
+	background-color: #003d36 !important;
+}*/
+/*.btn-primary:focus {
+	box-shadow: red !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+	box-shadow: red !important;
+}
+*/
 a {
 	color: #26A69A;
 }
+
+/*.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    border-color: #005cbf;
+}*/
+
+/*@media (min-width: 576px) {
+.messageCancel_padding {
+	padding-top: 20px !important;
+}
+}*/
+/*	.col-sm-6 {
+			padding-top: 20px !important;
+	}*/

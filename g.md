@@ -7,6 +7,7 @@ https://www.freecodecamp.org/learn/
 free code camp answers
 глянуть сертификаты и бесплатные курсы it
 
+https://coursehunter.net/course/framework-laravel-chast-1
 https://habr.com/ru/company/otus/blog/506158/
 https://dev.to/thinkc/build-a-random-quote-machine-with-react-41p4
 
@@ -14,8 +15,12 @@ https://dev.to/thinkc/build-a-random-quote-machine-with-react-41p4
 
 1. Попробовать сделать некст с компонентами ионик и наоборот ионик билд. Сравнить, где будет лучше работать статика и тд
 2. next js pwa
+3. Гудини
+4. Продающая страница с threejs цветком
+5. Подход стилизации https://codesandbox.io/s/j3yk7jkzk5?from-embed=&file=/src/app.js
 
 Страницы
+  фид статьи
   о нас в настройках
   заказ как в flowwow
   services предложение использования API
@@ -44,10 +49,7 @@ api нейросетей для сравнения изображения и н�
 https://material-ui.com/ru/
   шаблоны
   https://material.io/design/color/the-color-system.html#tools-for-picking-colors
-  цветок
-  ADF9D2
-  Шапка
-  506E64 -> 00695C
+https://react.i18next.com/
 
 // ---------- info ----------
 
@@ -80,6 +82,13 @@ https://ru.wikipedia.org/wiki/%D0%A6%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D0%B2%D1%8B%D
 энциклопедия цветов
 rare plants thailand
   https://www.thaigardendesign.com/plant-lists/
+
+// ---------- garbage ----------
+
+  цветок
+  ADF9D2
+  Шапка
+  506E64 -> 00695C
 
 // ---------- commands ----------
 

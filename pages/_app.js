@@ -6,6 +6,9 @@ import Footer from '../components/footer'
 
 import './css/App.css';
 
+import { I18nextProvider } from "react-i18next";
+import i18n from "./../i18n";
+
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
   // every single page in your application. This disables the ability to
@@ -25,6 +28,8 @@ class MyApp extends App {
 
     return (
       <div>
+      <I18nextProvider i18n={i18n}>
+
         <Head>
           <title>Home</title>
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
@@ -44,6 +49,8 @@ class MyApp extends App {
           }
         `}
         </style>
+
+      </I18nextProvider>
       </div>
     )
   }

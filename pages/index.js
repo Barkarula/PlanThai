@@ -3,6 +3,8 @@ import SideMenu from '../components/sideMenu'
 import Carousel from '../components/carousel'
 import PlantList from '../components/plantList'
 
+import Message from '../components/message'
+
 import { getPlants, getCategories } from '../actions'
  
 class Home extends React.Component {
@@ -38,6 +40,9 @@ class Home extends React.Component {
 
         <div className='homePage'>
           <div className="container">
+
+            <Message />
+
             <div className="row">
 
               <div className="col-lg-3">
