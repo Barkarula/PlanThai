@@ -32,6 +32,20 @@ i18n.use(LanguageDetector).init({
       }
     },
 
+    ru: {
+      translations: {
+        Introduction: "Введение",
+        "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
+          "Webからモバイルとデスクトップに製品をローカライズするための完全なソリューションを提供する国際化フレームワークです",
+        "Plugins to detect the user language":
+          "ユーザー言語を検出するためのプラグイン",
+        "Plugins to load translations": "翻訳をロードするためのプラグイン",
+        "Optionally cache the translations": "必要に応じて翻訳をキャッシュする",
+        Advantages: "Приемущество",
+        "Гибкость использования других пакетов ":" Гибкость использования других пакетов"
+      }
+    },
+
     hin: {
       translations: {
         Introduction: "प्रस्तावना",

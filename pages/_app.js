@@ -9,6 +9,8 @@ import './css/App.css';
 import { I18nextProvider } from "react-i18next";
 import i18n from "./../i18n";
 
+console.log('%cWellcome to PlanThai! 👋', 'color: cadetblue; background: aliceblue; font-size: 30px; font-family: Optima');
+
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
   // every single page in your application. This disables the ability to
@@ -45,7 +47,8 @@ class MyApp extends App {
         <Footer />
         <style jsx>{`
           .page-container {
-            margin-top: 70px;
+            // margin-top: 70px;
+            margin-top: 90px;
           }
         `}
         </style>

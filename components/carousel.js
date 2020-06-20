@@ -3,7 +3,7 @@ const Carousel = (props) => {
   const { images } = props
 
 	return (
-	  <div id="carouselExampleIndicators" className="carousel slide my-4" data-ride="carousel">
+	  <div id="carouselExampleIndicators" className="carousel slide my-4 carousel_fix" data-ride="carousel">
         <ol className="carousel-indicators">
         { images.map((image, index) => (
             <li
@@ -57,6 +57,9 @@ const Carousel = (props) => {
           .carousel-container {
             background: rgba(0, 0, 0, 0.45) !important;
             padding: 4px 8px !important;
+          }
+          .carousel_fix {
+            margin-top: 0 !important;
           }
         `}
         </style>

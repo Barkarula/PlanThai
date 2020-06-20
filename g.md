@@ -11,6 +11,8 @@ https://coursehunter.net/course/framework-laravel-chast-1
 https://habr.com/ru/company/otus/blog/506158/
 https://dev.to/thinkc/build-a-random-quote-machine-with-react-41p4
 
+farangay
+
 // ---------- TODO ----------
 
 1. Попробовать сделать некст с компонентами ионик и наоборот ионик билд. Сравнить, где будет лучше работать статика и тд
@@ -18,6 +20,7 @@ https://dev.to/thinkc/build-a-random-quote-machine-with-react-41p4
 3. Гудини
 4. Продающая страница с threejs цветком
 5. Подход стилизации https://codesandbox.io/s/j3yk7jkzk5?from-embed=&file=/src/app.js
+6. PlanThary страница
 
 Страницы
   фид статьи
@@ -43,6 +46,12 @@ typescript КЛИКЕР
 api нейросетей для сравнения изображения и нахождения плохих штук
 АРЕГАТОР ЦЕН ЦВЕТЫ
   PLANTFINDER
+
+// ---------- quiz ----------
+
+Сообщение удалять через контейнер?
+Как вернуть пропсы наверх
+https://medium.com/@jishnu61/6-easy-steps-to-localize-your-react-application-internationalization-with-i18next-8de9cc3a66a1
 
 // ---------- tools ----------
 
