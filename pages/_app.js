@@ -8,6 +8,8 @@ import './css/App.css';
 
 import { I18nextProvider } from "react-i18next";
 import i18n from "./../i18n";
+// import "./../i18n";
+
 
 console.log('%cWellcome to PlanThai! 👋', 'color: cadetblue; background: aliceblue; font-size: 30px; font-family: Optima');
 

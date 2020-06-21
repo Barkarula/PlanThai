@@ -1,7 +1,26 @@
 import Router from 'next/router'
 import Link from 'next/link'
+import { useState } from 'react';
+
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+
+	const [count, setCount] = useState("en");
+
+	const { t, i18n } = useTranslation();
+
+	let handleChange = lang => {
+
+		let newlang = lang;
+
+		setCount(newlang)
+		// props.i18n.changeLanguage(newlang)
+		i18n.changeLanguage(newlang)
+
+		// console.log("selected val is 3", props);
+	};
+
 	return (
 	<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top container_theme_lime">
 	    <div className="container">
@@ -30,17 +49,19 @@ const Navbar = () => {
 	        		<div className="dropdown">
 							  <button className="btn btn-primary dropdown-toggle navDropdown_fix" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							    <img className="lang-img" src='https://img.icons8.com/office/80/000000/translation.png' alt='' />
-							    Русский
+							    {t("Label")}
 							  </button>
 							  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							    <a className="dropdown-item" href="#"
 							    	value="en"
+							    	onClick={() => handleChange('en')}
 							    >
 							    	English
 							    </a>
 							    <a 
 							    	className="dropdown-item" href="#"
 							    	value="jap"
+							    	onClick={() => handleChange('jap')}
 							    >
 							    	中文
 							    </a>
@@ -48,6 +69,7 @@ const Navbar = () => {
 							    	className="dropdown-item" 
 							    	href="#"
 							    	value="ru"
+							    	onClick={() => handleChange('ru')}
 							    >
 							    	Русский
 							    </a>
@@ -55,6 +77,7 @@ const Navbar = () => {
 							    	className="dropdown-item" 
 							    	href="#"
 							    	value="hin"
+							    	onClick={() => handleChange('hin')}
 							    >
 							    	प्रस्तावना
 							    </a>
@@ -62,6 +85,7 @@ const Navbar = () => {
 							    	className="dropdown-item" 
 							    	href="#"
 							    	value="fre"
+							    	onClick={() => handleChange('fre')}
 							    >
 							    	Français
 							    </a>
@@ -69,6 +93,7 @@ const Navbar = () => {
 							    	className="dropdown-item" 
 							    	href="#"
 							    	value="ger"
+							    	onClick={() => handleChange('ger')}
 							    >
 							    	Deutsch
 							    </a>

@@ -6,6 +6,8 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
+        Label: "English",
+        Greetings: "You are welcome!",
         Introduction: "Introduction",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
           "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop",
@@ -20,6 +22,8 @@ i18n.use(LanguageDetector).init({
     },
     jap: {
       translations: {
+        Label: "中文",
+        Greetings: "文中 文! 🐼",
         Introduction: "前書き",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
           "Webからモバイルとデスクトップに製品をローカライズするための完全なソリューションを提供する国際化フレームワークです",
@@ -34,20 +38,24 @@ i18n.use(LanguageDetector).init({
 
     ru: {
       translations: {
+        Label: "Русский",
+        Greetings: "Добро пожаловать!",
         Introduction: "Введение",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
-          "Webからモバイルとデスクトップに製品をローカライズするための完全なソリューションを提供する国際化フレームワークです",
+          "это интернационализация-фреймворк, которая предлагает комплексное решение для локализации вашего продукта с Интернета на мобильный и настольный компьютер",
         "Plugins to detect the user language":
-          "ユーザー言語を検出するためのプラグイン",
-        "Plugins to load translations": "翻訳をロードするためのプラグイン",
-        "Optionally cache the translations": "必要に応じて翻訳をキャッシュする",
+          "Плагины для определения языка пользователя",
+        "Plugins to load translations": "Плагины для загрузки переводов",
+        "Optionally cache the translations": "При желании кешировать переводы",
         Advantages: "Приемущество",
-        "Гибкость использования других пакетов ":" Гибкость использования других пакетов"
+        "Flexibility to use other packages":" Гибкость использования других пакетов"
       }
     },
 
     hin: {
       translations: {
+        Label: "प्रस्तावना",
+        Greetings: "आपके उत्पाद!",
         Introduction: "प्रस्तावना",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
           "एक अंतर्राष्ट्रीयकरण - ढांचा है जो आपके उत्पाद को वेब से मोबाइल और डेस्कटॉप पर स्थानांतरित करने का एक संपूर्ण समाधान प्रदान करता है",
@@ -61,8 +69,10 @@ i18n.use(LanguageDetector).init({
       }
     },
 
-    ger: {
+    fre: {
       translations: {
+        Label: "Français",
+        Greetings: "Soyez le bienvenu!",
         Introduction: "Einführung",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
           "ist ein Internationalisierungs-Framework, das eine Komplettlösung für die Lokalisierung Ihres Produkts vom Web auf das Handy und den Desktop bietet",
@@ -76,8 +86,10 @@ i18n.use(LanguageDetector).init({
           "Flexibilität zur Verwendung anderer Pakete"
       }
     },
-    fre: {
+    ger: {
       translations: {
+        Label: "Deutsch",
+        Greetings: "Willkommen zurück!",
         Introduction: "Introduction",
         "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
           "est un cadre d'internationalisation qui offre une solution complète pour localiser votre produit du Web au mobile et au bureau",

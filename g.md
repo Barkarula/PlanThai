@@ -20,7 +20,9 @@ farangay
 3. Гудини
 4. Продающая страница с threejs цветком
 5. Подход стилизации https://codesandbox.io/s/j3yk7jkzk5?from-embed=&file=/src/app.js
+  стилизацию понять как лучше сделать
 6. PlanThary страница
+7. coockies
 
 Страницы
   фид статьи

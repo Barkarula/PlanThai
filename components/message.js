@@ -1,14 +1,33 @@
+import { useTranslation } from "react-i18next";
+
 const Message = () => {
+
+	const { t, i18n } = useTranslation();
 
 	return (
 		<div className="alert alert-success container" role="alert">
-		  <h4 className="alert-heading">You are welcome!</h4>
-		  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+		  <h4 className="alert-heading">{t("Greetings")}</h4>
+		  <p>{t(
+		  		"is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop"
+		  	)}.&nbsp; 
+		  	{t(
+		  		"Plugins to detect the user language"
+		  	)}.&nbsp; 
+		  	{t(
+		  		"Plugins to load translations"
+		  	)}.
+		  </p>
+
+		 	<p>{t(
+		  	"Optionally cache the translations"
+		  	)}
+		 	</p>
 		  <hr/>
 		  <div className="container">
 		  	<div className="row">
 		  		<div className="col">
-				    <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+				    <p className="mb-0">{t("Advantages")}:</p>
+				    <p className="mb-0">{t("Flexibility to use other packages")}</p>
 				  </div>
 				  <div className="col-lg-3 col-md-3 col-sm-6 messageCancel_padding">
 				    <button className="btn btn-outline-dark btn-block">Закрыть</button>
