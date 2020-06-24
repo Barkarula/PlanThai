@@ -43,7 +43,7 @@ const Message = () => {
 				    bottom: 3px;
 				    right: 10px;
           }
-     //      @media (min-width: 576px)
+     			//      @media (min-width: 576px)
 					// .col-sm-6 {
 					// 		padding-top: 20px !important;
 					// }

@@ -4,8 +4,12 @@ const PlantCreateForm = (props) => {
 
 	// fix uncontrolled data
 	const [form, setForm] = useState({
-		name: 'Some plant',
-		description: 'Some description'
+		name: '',
+		description: '',
+		rating: '',
+		image: '',
+		cover: '',
+		longDesc: ''
 	})
 
 	const handleChange = (event) => {

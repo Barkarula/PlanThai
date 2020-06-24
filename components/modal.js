@@ -24,7 +24,7 @@ const Modal = (props) => {
   return (
     <div>
       <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        + add plant
+        + suggest plant
       </button>
 
       <div 
