@@ -1,5 +1,7 @@
 // ---------- rt ----------
 
+git push -u origin master
+
 https://coursehunter.net/course/next-js-s-react-i-node-krasivoe-prilozhenie-portfolio
 https://github.com/Jerga99/next-movie-proto/commit/029ace451407d0434303a0038246885cd25d1676
 
