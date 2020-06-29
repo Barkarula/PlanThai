@@ -6,17 +6,19 @@ import { createPlant } from './../actions'
 const SideMenu = (props) => {
 
   const { categories } = props
+  let modal = null
 
   const handleCreatePlant = (plant) => {
     createPlant(plant).then((plants) => {
       console.log(JSON.stringify(plants))
+      modal.closeModal()
     })
   }
 
 	return (
 		<div>
 
-     <Modal hasSumbit={false}>
+     <Modal ref={ele => modal = ele} hasSumbit={false}>
        <PlantCreateForm handleForSubmit={handleCreatePlant}/>
      </Modal>
 		 <h1 className="my-4">Thailand

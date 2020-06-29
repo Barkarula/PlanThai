@@ -12,6 +12,8 @@ https://habr.com/ru/company/otus/blog/506158/
 https://dev.to/thinkc/build-a-random-quote-machine-with-react-41p4
 
 farangay
+для статей
+http://coldfox.ru/article/5ab95d2350e0790c10afcc00/%D0%9F%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Git
 
 // ---------- TODO ----------
 

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 
 const PlantCreateForm = (props) => {
 
-	// fix uncontrolled data
 	const [form, setForm] = useState({
 		name: '',
 		description: '',
