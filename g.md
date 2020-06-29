@@ -1,7 +1,5 @@
 // ---------- rt ----------
 
-git push -u origin master
-
 https://coursehunter.net/course/next-js-s-react-i-node-krasivoe-prilozhenie-portfolio
 https://github.com/Jerga99/next-movie-proto/commit/029ace451407d0434303a0038246885cd25d1676
 
@@ -113,3 +111,9 @@ plantList.js
 npx create-next-app
 
 npm run dev
+
+git push -u origin master
+git checkout -b express_test origin/master
+git checkout express_test
+git checkout master
+git merge express_test
