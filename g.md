@@ -114,6 +114,8 @@ npm run dev
 
 git push -u origin master
 git checkout -b express_test origin/master
+git push origin express_test
+
 git checkout express_test
 git checkout master
 git merge express_test
